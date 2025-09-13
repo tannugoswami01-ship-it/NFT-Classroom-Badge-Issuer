@@ -1,0 +1,15 @@
+[package]
+name = "NFTClassroomBadgeIssuer"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xf3bc4d83a15e56e810a345c1a210e2668d3f9c70afd145b5483cff922d01139a"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
